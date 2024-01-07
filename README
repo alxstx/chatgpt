@@ -1,0 +1,16 @@
+Das neue Chat Gpt
+
+Starten durch:
+
+1. pip3 install -r requirements.txt
+2. python telepars.py
+Davor muss außerdem Webdriver Safari Selenium und die Telegram App zur Ausführung installiert werden
+Telegram Bot: @chatgptinformatik_bot
+
+Beschreibung des Projekts:
+Hierbei handelt es sich um eine Imitation von Chat Gpt. Dabei fragt der Bot nach einem Suchwort und findet
+alle möglichen Information darüber auf verschiedensten Internet Seiten und gibt diese mit der Quelle an.
+Der Nutzer kann die Quellen bewerten, dabei werden die als gut bewerteten Quellen in einer Datenbank Chatgpt.db
+gespeichert und bei neuer Ausgabe als solche erwaehnt.
+Die Kommunikation verlaeuft mit dem Telegram Bot, dieser nutzt das Selenium Modul zur Findung der Information.
+Die einzelnen Funktionen sind mit einer Dokumentation versehen
